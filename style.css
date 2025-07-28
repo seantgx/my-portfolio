@@ -1,11 +1,229 @@
 body {
-background-color:#000000;
-color:#f2f2f2;
-font-family:"Georgia", serif;
+background-color:#ffffff;
+background-image: url('media/site-back.png');
+color:#fdfdfd;
+font-family:"Helvetica", sans;
 
+}
+@font-face{
+font-family: 'FlashFont'; /* Choose a descriptive name for your font */
+        src: url('fonts/FlashFont-Display.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
 }
 .backgroundtest{
 font-weight:700;
 background-color:#f0f;
 
+}
+
+/* BACKEND CLASSES */
+.fullpage {
+	max-width: 100%;
+	margin:10% 0;
+}
+
+/* BACKEND CLASSES END */
+/* Test Classes */
+.anim-header-div {
+	max-width: 80%;
+	overflow: hidden;
+}
+
+.anim-body-div {
+	max-width: 72%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.image-container {
+	max-width: 90%;
+	margin: auto;
+	margin-bottom:40%;
+}
+
+.image-button-div{
+	float: left;
+	width: 33.334%;
+}
+
+@media screen and (max-width: 800px) {
+	.image-button-div {
+		width: 100%;
+		margin: auto;
+		padding: 5%;
+	}
+}
+
+/* ANIMATIONS */
+.animation-header {
+	background-color: #efe00e;
+	padding: 5% 2% 4% 10%;
+	margin: 0;
+	margin-right: 10%;
+	text-align: center;
+	color: #000000;
+	animation-name: movein;
+	animation-duration: 1.2s;
+	animation-iteration-count: 1;
+	animation-direction: reverse;
+	position: relative;
+	font-size:7rem;
+	font-family:"FlashFont";
+	
+}
+
+@keyframes movein {
+	0% {
+		transform: translateX(0%);
+	}
+	
+	18% {
+		transform: translateX(10%);
+	}
+	
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.animation-body {
+	background-color: #202020;
+	color: #efe00e;
+	padding: 3% 0 3% 7%;
+	position: relative;
+	top: 1em;
+	margin-left: 10%;
+	font-weight: 600;
+	text-align: left;
+	animation-name: moveinbody;
+	animation-duration: 1.2s;
+	animation-iteration-count: 1;
+	animation-direction: reverse;
+}
+
+@keyframes moveinbody {
+	0% {
+		transform: translateX(0%);
+	}
+	
+	18% {
+		transform: translateX(-8%);
+	}
+	
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.animation-body-mobile {
+	background-color: #202020;
+	color: #efe00e;
+	padding: 2%;
+	padding-right: 3%;
+	text-align: right;
+	animation-name: moveinbodymobile;
+	animation-duration: .6s;
+	animation-iteration-count: 1;
+	animation-direction: reverse;
+	position: relative;
+	left: 2%;
+}
+
+@keyframes moveinbodymobile {
+	0% {
+		transform: translateX(0%);
+	}
+	
+	5% {
+		transform: translateX(-2%);
+	}
+	
+	75% {
+		transform: translateX(100%);
+	}
+	
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+/* ANIMATION END */
+/* SCREEN SPECIFIC CLASSES */
+/* DESKTOP */
+@media (min-width: 768px) {
+	.animation-body-mobile {
+		display: none;
+	}
+	
+	.desktop-only {
+		display: block;
+	}
+	
+	.mobile-only {
+		display: none;
+	}
+}
+
+.image-button-desktop {
+	width: 98%;
+	background-color: #000000;
+	display: block;
+	opacity: 90%;
+	margin: auto;
+	transition: .2s;
+	position:relative;
+	z-index:1;
+}
+
+.image-button-desktop:hover {
+	transform: scale(1.1,1.1);
+	outline: .5rem solid #efe00e;
+  outline-offset: 0px;
+	border-radius: 5%;
+	background-color: #efe00e;
+	opacity: 100%;
+	z-index: 2; 
+	position:relative;
+}	
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+	.animation-header {
+		animation-duration: 1s;
+		text-align: left;
+	}
+	
+	.animation-body {
+		animation-duration: 1s;
+		text-align: left;
+	}
+	
+	.anim-header-div {
+		max-width: 100%;
+	}
+	
+	.anim-body-div {
+		max-width: 100%;
+	}
+		
+	.desktop-only {
+		display: none;
+	}
+	
+	.mobile-only {
+		display: block;
+	}
+	
+	/* 2k DESKTOP */
+	@media (min-width: 2050px) {
+	
+}
+
+/* SCREEN SPECFIC CLASSES END */
+/* IMAGE CLASSES */
+.image-opacity {
+	opacity: 80%;
 }
