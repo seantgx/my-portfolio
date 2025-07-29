@@ -1,23 +1,69 @@
 body {
 background-color:#ffffff;
-background-image: url('media/site-back.png');
-color:#fdfdfd;
+background-image: url('../media/site-back.png');
+color:#111;
 font-family:"Helvetica", sans;
-}
-@font-face{
-font-family: 'FlashFont'; /* Choose a descriptive name for your font */
-        src: url('../fonts/FlashFont-Display.otf') format('opentype');
-        font-weight: normal;
-        font-style: normal;
+padding-top:5%;
 }
 
 h1 a,
 h1 a:hover,
 h1 a:focus,
-h1 a:visited {
+h1 a:visited,
+p a,
+p a:hover,
+p a:focus,
+p a:visited {
   color: inherit;
   text-decoration: none;
 }
+
+
+
+  
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 15%;
+  z-index: 1000;
+  background-color: #111;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow:hidden;
+
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #111;
+  text-align: center;
+  height:30%;
+  width:15%;  
+text-decoration: none;
+  font-size: 1.25vw;
+  background-color:#efe00e;
+  margin-left:.5%;
+  padding-top:.5%;
+  border-bottom:.5vw solid #fff;
+  font-family:"BarlowCondensed";
+  font-weight:500;
+	transition:.15s;
+}
+
+#navbar a:hover {
+  background-color: #553;
+  color: white;
+	border-bottom: 10px solid #111;
+}
+
+#navbar a.active {
+  background-color: #111;
+  color: white;
+}
+
 
 
 
@@ -37,7 +83,7 @@ background-color:#f0f;
 /* BACKEND CLASSES END */
 /* Test Classes */
 .anim-header-div {
-	max-width: 80%;
+	max-width: 85%;
 	overflow: hidden;
 }
 
@@ -67,14 +113,14 @@ background-color:#f0f;
 	padding: 5% 2% 4% 10%;
 	margin: 0;
 	margin-right: 10%;
-	text-align: center;
+	text-align: end;
 	color: #000000;
 	animation-name: movein;
 	animation-duration: 1.2s;
 	animation-iteration-count: 1;
 	animation-direction: reverse;
 	position: relative;
-	font-size:7rem;
+	font-size:8vw;
 	font-family:"FlashFont";
 	
 }
@@ -196,6 +242,8 @@ background-color:#f0f;
 
 /* MOBILE */
 @media screen and (max-width: 800px) {
+	
+
 	.animation-header {
 		animation-duration: 1s;
 		text-align: left;
@@ -223,7 +271,9 @@ background-color:#f0f;
 	.mobile-only {
 		display: block;
 	}
+
 	}
+
 	/* 2k DESKTOP */
 	@media (min-width: 2050px) {
 	
