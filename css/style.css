@@ -124,6 +124,15 @@ background-color:#f0f;
 	font-family:"FlashFont";
 	font-weight:100;
 }
+.animation-header:active {
+animation:none;
+
+}
+.animation-body:active {
+animation:none;
+
+}
+
 
 @keyframes movein {
 	0% {
