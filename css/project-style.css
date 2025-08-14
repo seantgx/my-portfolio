@@ -41,6 +41,13 @@
 	height:270px;
 	transition:.3s;
 }
+
+.logo {
+width:100%;
+float:left;
+padding:5%;
+margin-bottom:12%;
+}
 .text-align-bottom{
 	position:relative;
 	top:75%x;
@@ -55,13 +62,14 @@
 	height:33rem;
 }
 .project-header{
-	margin-bottom:10%;
+	margin-bottom:5%;
 	background-color:blue;
 	background-image:url('');
 	font-size:2rem;
 	font-weight:bold;
 	padding:2%;
-
+box-shadow: 0px 25px 25px -20px; 
+margin-top:2.3%;
 }
 .project-header-type{
 	font-size:7rem;
@@ -75,7 +83,7 @@
 }
 .button {
 	background-color:#efe00e;
-	padding:.6% 3%;
+	padding:1.6% 3%;
 	border-bottom:.6vw solid #eeeeee;
 	font-size:1.25vw;
 	transition:.1s;
@@ -84,11 +92,16 @@
 	text-decorations:none;
 	font-weight:500;
 	font-family:"BarlowCondensed";
+	box-shadow:0px 7px 20px -8px;
+	display:block;
+	margin-left:25%;
+	width:50%;
 }
 .button:hover{
 	background-color:#999;
 	border-bottom:.6vw solid #010101;
-	font-weight:700;
+	font-weight:500;
+	color:white !important;
 }
 
 
@@ -103,6 +116,7 @@
 .uneven30{
         width:30%;
   float:left;
+ height:1px;
 }
 .uneven40{
         width:40%;
@@ -213,6 +227,10 @@ width:100%;
 	font-size:3.5rem;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
+}
+
+.button{
+font-size:5vw;
 }
 
 }

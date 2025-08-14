@@ -18,16 +18,28 @@ p a:visited {
   text-decoration: none;
 }
 
-
-
+.popup-message {
+position:absolute;
+top:14vw;
+left:3vw;   
+transform:rotate(-20deg);
+transition:.2s;
+}
+.popup-message:active {
+transform:rotate(350deg);
+transition:.5s;
+}
   
+.text-align-center{
+text-align:center;
+}
 
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 15%;
+  height: 105px;
   z-index: 1000;
   background-color: #111;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -35,7 +47,7 @@ p a:visited {
 
 }
 
-#navbar a {
+.navbar-button {
   float: right;
   display: block;
   color: #111;
@@ -51,22 +63,42 @@ text-decoration: none;
   font-family:"BarlowCondensed";
   font-weight:500;
 	transition:.15s;
+	margin-top:2.5%;
 }
 
-#navbar a:hover {
+.navbar-button:hover {
   background-color: #553;
   color: white;
-	border-bottom: 10px solid #111;
+	border-bottom: .5vw solid #111;
 }
 
-#navbar a.active {
+.navbar-button.active {
   background-color: #111;
   color: white;
 }
 
-
-
-
+.navbar-logo-container{
+width:35%;
+margin-left:8%;
+float:left;
+font-family:"FlashFont";
+color:white;
+margin-top:.5%;
+}
+.navbar-logo{
+width:15%;
+float:left;
+margin-right:5%;
+margin-top:5%;
+}
+.navbar-logo-text{
+width:72%;
+float:left;
+font-size:230%;
+color:white;
+margin-top:7%;
+font-weight:100;
+}
 
 .backgroundtest{
 font-weight:700;
@@ -248,6 +280,9 @@ animation:none;
 	position:relative;
 }	
 }
+
+
+
 
 /* MOBILE */
 @media screen and (max-width: 800px) {

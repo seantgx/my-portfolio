@@ -12,15 +12,10 @@
 <script src="script.js"></script>
 
 <div class="navbar desktop-only" id="navbar">
-<a href="index.html">
-<div class="navbar-logo-container">
-<img class="navbar-logo" src="media/seangtxlogo.png">
-<h2 class="navbar-logo-text">SEAN TIBBETTS</h2></a>
-</div>
-</a>
-  <a class="navbar-button" href="About-Me.html">About Me</a>
-  <a class="navbar-button" href="About-Me.html">More Projects</a>
-  <a class="navbar-button active" href="index.html">Home</a>
+<h2 class="navbar-logo">SEAN TIBBETTS</h2>
+  <a href="About-Me.html">About Me</a>
+  <a href="About-Me.html">More Projects</a>
+  <a class="active" href="index.html">Home</a>
 </div>
 
 <div class="fullpage">
