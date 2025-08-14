@@ -234,3 +234,12 @@ font-size:5vw;
 }
 
 }
+.rf-body{
+font-family:'BM-Kirang';
+font-size:1.5vw;
+}
+
+.app-padding{
+border:transparent 5px solid;
+box-sizing:border-box;
+}

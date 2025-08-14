@@ -77,3 +77,70 @@ font-family: 'BarlowCondensed'; /* Choose a descriptive name for your font */
         font-style: normal;
 }
 
+/* BM Fonts */
+
+
+@font-face{
+font-family: 'BM-Hanna';
+	src: url('../fonts/BM-HANNA.ttf') format('truetype');
+	font-style:normal;
+	font-weight: normal;
+}
+@font-face{
+font-family: 'BM-Kirang';
+        src: url('../fonts/KirangHaerang-Regular.ttf') format('truetype');
+        font-style:normal;
+	font-weight: normal;
+}
+
+/* Noto Serif Fonts */
+
+@font-face{
+font-family: 'noto-serif';   
+        src: url('../fonts/NotoSerif-Regular.ttf') format('truetype');
+        font-style:normal;
+        font-weight: 200;
+}
+@font-face{
+font-family: 'noto-serif';
+        src: url('../fonts/NotoSerif-Bold.ttf') format('truetype');
+        font-style:normal;
+        font-weight: 300;
+} 
+@font-face{
+font-family: 'noto-serif';
+        src: url('../fonts/NotoSerif-ExtraBold.ttf') format('truetype');
+        font-style:normal;
+        font-weight: 400;
+} 
+
+
+/* Gill Sans Fonts */
+ 
+@font-face{
+font-family: 'Gill-Sans';
+        src: url('../fonts/GillSans.ttf') format('truetype');
+        font-style:normal;
+        font-weight: 200;
+}       
+@font-face{
+font-family: 'Gill-Sans';
+        src: url('../fonts/GillSans-Bold.ttf') format('truetype');
+        font-style:normal;
+        font-weight: 300;
+}
+@font-face{
+font-family: 'Gill-Sans';
+        src: url('../fonts/GillSans-UltraBold.ttf') format('truetype');
+        font-style:normal;
+        font-weight: 400;
+}
+
+/* Monteserrat Fonts */
+
+@font-face{
+font-family: 'Monteserrat';  
+        src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+        font-style:normal;
+        font-weight: 100 900;
+}
