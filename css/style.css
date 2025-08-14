@@ -46,7 +46,10 @@ text-align:center;
   overflow:hidden;
 
 }
-
+.navbar-button-container {
+margin-right:1.5%;
+height:90%;
+}
 .navbar-button {
   float: right;
   display: block;
@@ -57,7 +60,7 @@ text-align:center;
 text-decoration: none;
   font-size: 1.25vw;
   background-color:#efe00e;
-  margin-left:.5%;
+  margin-left:.75%;
   padding-top:.5%;
   border-bottom:.5vw solid #fff;
   font-family:"BarlowCondensed";
@@ -94,7 +97,7 @@ margin-top:5%;
 .navbar-logo-text{
 width:72%;
 float:left;
-font-size:230%;
+font-size:2.5vw;
 color:white;
 margin-top:7%;
 font-weight:100;
