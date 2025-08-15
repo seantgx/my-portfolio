@@ -38,7 +38,7 @@ background-color:#ffffff;
 height:320px;
 position:sticky;
 width:92%;
-margin-left:7.25%;
+margin-left:7.2%;
 margin-top:25%;
 transition:.2s;
 transition-delay:1s;
@@ -57,7 +57,7 @@ transition:.1s;
 
 .dropdown-container{
 width:11%;
-height:70px;
+height:75px;
 float:right;
 overflow:hidden;
 transition:1s;
