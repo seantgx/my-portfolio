@@ -43,12 +43,14 @@ text-align:center;
   z-index: 1000;
   background-color: #111;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-overflow:hidden; 
+overflow:hidden 
 transition:1s;
+transition-delay:3s;
 }
 .navbar:hover{
 overflow:visible;
 transition:1s;
+transition-delay:3s;
 }
 
 .navbar-button-container {
