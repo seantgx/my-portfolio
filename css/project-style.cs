@@ -29,6 +29,7 @@
 	z-index:101;
 	pointer-events:none;
 	border-top: .3rem solid rgba(200,200,200,20%);
+	margin-bottom:-20%;
 }
 .color-name-box{
 	float:left;
@@ -40,6 +41,13 @@
 	height:270px;
 	transition:.3s;
 }
+
+.logo {
+width:100%;
+float:left;
+padding:5%;
+margin-bottom:12%;
+}
 .text-align-bottom{
 	position:relative;
 	top:75%x;
@@ -48,18 +56,20 @@
 	font-weight:600;
 }
 .color-palette{
-	overflow:hidden;
-	margin-bottom:-15%;
+	
+	
 	width:100%;
+	height:33rem;
 }
 .project-header{
-	margin-bottom:10%;
+	margin-bottom:5%;
 	background-color:blue;
 	background-image:url('');
 	font-size:2rem;
 	font-weight:bold;
 	padding:2%;
-
+box-shadow: 0px 25px 25px -20px; 
+margin-top:2.3%;
 }
 .project-header-type{
 	font-size:7rem;
@@ -73,7 +83,7 @@
 }
 .button {
 	background-color:#efe00e;
-	padding:.6% 3%;
+	padding:1.6% 3%;
 	border-bottom:.6vw solid #eeeeee;
 	font-size:1.25vw;
 	transition:.1s;
@@ -82,11 +92,16 @@
 	text-decorations:none;
 	font-weight:500;
 	font-family:"BarlowCondensed";
+	box-shadow:0px 7px 20px -8px;
+	display:block;
+	margin-left:25%;
+	width:50%;
 }
 .button:hover{
 	background-color:#999;
 	border-bottom:.6vw solid #010101;
-	font-weight:700;
+	font-weight:500;
+	color:white !important;
 }
 
 
@@ -101,6 +116,7 @@
 .uneven30{
         width:30%;
   float:left;
+ height:1px;
 }
 .uneven40{
         width:40%;
@@ -131,32 +147,76 @@
 	float:left;
 }
 .unevencolumn {
-	margin-bottom:10%;
 	width:90%;
 	margin-left:5%;
+	margin-top:10%;
 }
 .text-box {
 	width:95%;
 	float:left;
-	margin:0 2.5%;
+	margin:0% 2.5%;
+	margin-bottom:20%;
 }
 
 .font-section {
-font-size:1.75rem;
+	font-size:1.65rem;
+	margin-top:12%;
 }
+
+.section-header{
+font-size:2.5rem;
+}
+
 
 .image-section{
 	width:100%;
 	overflow:hidden;
+	margin-bottom:.5%;
 }
+
+
+.button{
+font-size:1.5vw;
+}
+        
+
+.rf-body{
+font-family:'BM-Kirang';
+font-size:2vw;
+}
+
+.app-padding{
+border:transparent 5px solid;
+box-sizing:border-box;
+}
+
 
 
 
 @media screen and (max-width: 800px) {
+.uneven10,
+.uneven20,
+.uneven30,
+.uneven33,
+.uneven40,
+.uneven50,
+.uneven60,
+.uneven70,
+.uneven80,
+.uneven90 {
+
+width:100%;
+
+}
 .section-text{
 	margin-left:3%;
 	font-size:1rem;
 }
+.rf-header{
+font-size:9vw;
+}
+
+
 .color-box{
 	width:100%;
 	height:100px;
@@ -189,6 +249,13 @@ font-size:1.75rem;
 	font-size:3.5rem;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
+}
+.rf-body{
+font-size:7vw;
+}
+.logo{
+padding:0;
+
 }
 
 }

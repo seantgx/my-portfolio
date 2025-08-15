@@ -2,7 +2,7 @@ body {
 background-color:#ffffff;
 background-image: url('../media/site-back.png');
 color:#111;
-font-family:"Helvetica", sans;
+font-family:"BarlowCondensed", sans;
 padding-top:5%;
 }
 
@@ -196,6 +196,7 @@ animation:none;
 	animation-duration: 1.2s;
 	animation-iteration-count: 1;
 	animation-direction: reverse;
+	font-size:2vw;
 }
 
 @keyframes moveinbody {
@@ -286,7 +287,6 @@ animation:none;
 
 
 
-
 /* MOBILE */
 @media screen and (max-width: 800px) {
 	
@@ -332,6 +332,10 @@ animation:none;
 .image-opacity {
 	opacity: 80%;
 }
+.animation-subtype{
+font-size:1.25vw;           
+font-weight:300;
+}   
 
 @media screen and (max-width: 800px) {
         .image-button-div {
@@ -369,7 +373,9 @@ animation:none;
         .mobile-only {
                 display: block;
         }
- 
+.animation-subtype{
+font-size:2.5vw;
+} 
  
  
 }
