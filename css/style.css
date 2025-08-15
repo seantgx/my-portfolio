@@ -43,9 +43,14 @@ text-align:center;
   z-index: 1000;
   background-color: #111;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  overflow:hidden;
-
+overflow:hidden; 
+transition:1s;
 }
+.navbar:hover{
+overflow:visible;
+transition:1s;
+}
+
 .navbar-button-container {
 margin-right:1.5%;
 height:90%;
@@ -56,7 +61,7 @@ height:90%;
   color: #111;
   text-align: center;
   height:30%;
-  width:15%;  
+  width:10%;  
 text-decoration: none;
   font-size: 1.25vw;
   background-color:#efe00e;
