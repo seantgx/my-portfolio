@@ -305,7 +305,7 @@ animation:none;
 	.animation-header {
 		animation-duration: 1s;
 		text-align: left;
-		font-size:0.75rem;	
+		font-size:1.5rem;	
 }
 	
 	.animation-body {
@@ -359,7 +359,7 @@ font-weight:300;
   .animation-header {
                 animation-duration: 1s;
                 text-align: left;
-                font-size:1.5rem;
+                font-size:10vw;
 }
 
 .anim-body-div{
@@ -369,7 +369,7 @@ height:10rem;
 height:5rem;
 }
 .animation-subtype{
-font-size:3rem;
+font-size:3.5vw;
 }
 .popup-message{
 
@@ -398,10 +398,7 @@ font-size:3vw;
  
         .mobile-only {
                 display: block;
-        }
-.animation-subtype{
-font-size:5vw;
-} 
+        } 
 .button{
 font-size:5vw;
 } 
