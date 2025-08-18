@@ -354,7 +354,7 @@ font-weight:300;
 footer{
 background-color:#111;
 color:white;
-height:220px;
+height:260px;
 border-top:#555 solid 4.5px;
 border-opacity:25%;
 width:100%;
@@ -369,7 +369,7 @@ margin-top:2.8%;
 .footer-item-container{
 width:20%;
 float:left;
-
+margin-top:-1.6%;
 }
 .footer-item{
 text-align:center;
