@@ -397,6 +397,10 @@ width:40%;
 }
 
 @media screen and (max-width: 800px) {
+footer{
+height:400px;
+
+}
 .footer-container{
 width:100%;
 }        
