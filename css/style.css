@@ -453,17 +453,17 @@ height:10rem;
 height:5rem;
 }
 .animation-subtype{
-font-size:3.5vw;
+font-size:3vw;
 }
 .popup-message{
-
+top:230px;
 font-size:3vw;
 }
  
         .animation-body {
                 animation-duration: 1s;
                 text-align: left;
-		font-size:.75rem;
+		font-size:3.5vw;
 		margin-right:2%;
         }
  
@@ -486,6 +486,34 @@ font-size:3vw;
 .button{
 font-size:5vw;
 } 
- 
+.navbar{
+position:inherit;
+height:180px;
+margin-top:-8%;
+}
+.navbar-logo-container{
+width:100%;
+margin-left:.5%;
+margin-bottom:-5%;
+}
+.navbar-button{
+width:32.58%;
+font-size:3vw;
+height:5vw;
+} 
+.navbar-button-container{
+margin-left:.9%;
+}
+.navbar-logo-text{
+font-size:6vw;
+width:100%;
+text-align:center;
+}
+.navbar-logo{
+margin-left:42.5%;
+margin-bottom:-4%;
+}
+
+
 }
 
