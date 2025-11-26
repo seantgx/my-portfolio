@@ -89,7 +89,7 @@ margin-top:2.3%;
 	transition:.1s;
 	text-transform:uppercase;
 	color:#000 !important; 
-	text-decorations:none;
+	text-decoration:none;
 	font-weight:500;
 	font-family:"BarlowCondensed";
 	box-shadow:0px 7px 20px -8px;
@@ -236,7 +236,7 @@ font-size:9vw;
 	border-top:none;
 }
 .text-align-bottom{
-	position-relative;
+	position:relative;
 	left:30%;
 	font-weight:600;
 	font-size:.5rem;

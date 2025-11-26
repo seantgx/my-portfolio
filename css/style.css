@@ -2,8 +2,9 @@ body {
 background-color:#ffffff;
 background-image: url('../media/site-back.png');
 color:#111;
-font-family:"BarlowCondensed", sans;
+font-family:"Quantico", sans;
 padding-top:5%;
+font-size:1.3rem;
 }
 
 h1 a,
@@ -24,6 +25,7 @@ top:14vw;
 left:3vw;   
 transform:rotate(-20deg);
 transition:.2s;
+font-weight:100;
 }
 .popup-message:active {
 transform:rotate(350deg);
@@ -35,16 +37,16 @@ text-align:center;
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 105px;
-  z-index: 1000;
-  background-color: #111;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 105px;
+z-index: 1000;
+background-color: #111;
 box-shadow: 0px 5px 15px rgb(0, 0, 0);
 border-bottom:#555 solid 3px;    
-border-opacity:25%;  
+stroke-opacity:25%;  
 transition:1s;
 transition-delay:3s;
 }
@@ -66,13 +68,13 @@ height:90%;
   height:30%;
   width:10%;  
 text-decoration: none;
-  font-size: 1.25vw;
+  font-size: 1.1vw;
   background-color:#efe00e;
   margin-left:.75%;
   padding-top:.5%;
   border-bottom:.5vw solid #fff;
-  font-family:"BarlowCondensed";
-  font-weight:500;
+  font-family:"Quantico";
+  font-weight:200;
 	transition:.15s;
 	margin-top:2.5%;
 }
@@ -120,7 +122,7 @@ background-color:#f0f;
 /* BACKEND CLASSES */
 .fullpage {
 	max-width: 100%;
-	margin:11% 0;
+	margin:9% 0 0% 0;
 }
 
 /* BACKEND CLASSES END */
@@ -142,7 +144,7 @@ background-color:#f0f;
 .image-container {
 	max-width: 90%;
 	margin: auto;
-	margin-bottom:40.5%;
+	margin-bottom:30.5%;
 }
 
 .image-button-div{
@@ -169,6 +171,8 @@ background-color:#f0f;
 	font-family:"FlashFont";
 	font-weight:100;
 	box-shadow:black 5px 5px 10px;
+	line-height:90%;
+	text-decoration:none;
 }
 .animation-header:active {
 animation:none;
@@ -199,9 +203,8 @@ animation:none;
 	color: #efe00e;
 	padding: 3% 0 3% 7%;
 	position: relative;
-	top: 1em;
 	margin-left: 10%;
-	font-weight: 600;
+	font-weight: 200;
 	text-align: left;
 	animation-name: moveinbody;
 	animation-duration: 1.2s;
@@ -209,6 +212,7 @@ animation:none;
 	animation-direction: reverse;
 	font-size:2vw;
 	box-shadow:black -5px 5px 10px;
+	line-height: 110%;
 }
 
 @keyframes moveinbody {
@@ -273,7 +277,11 @@ animation:none;
 		display: none;
 	}
 }
-
+.about-text{
+	font-size:1.25vw;
+	font-family:Quantico;
+	font-weight:100;
+}
 .image-button-desktop {
 	width: 98%;
 	background-color: #000000;
@@ -295,7 +303,7 @@ animation:none;
 	z-index: 2; 
 	position:relative;
 }	
-}
+
 
 
 
@@ -346,8 +354,9 @@ animation:none;
 	opacity: 80%;
 }
 .animation-subtype{
-font-size:1.25vw;           
-font-weight:300;
+font-size:1.15vw;           
+font-weight:100;
+
 }   
 
 
@@ -356,7 +365,7 @@ background-color:#111;
 color:white;
 height:260px;
 border-top:#555 solid 4.5px;
-border-opacity:25%;
+stroke-opacity:25%;
 width:100%;
 float:left;
 box-shadow: 0px -1px 15px rgb(0, 0, 0);
@@ -378,7 +387,8 @@ margin-bottom:-5%;
 }
 p.footer-item{
 text-decoration:underline;
-font-size:1.1rem;
+font-size:.9rem;
+font-weight: 100;
 }
 h2.footer-item{
 font-family:'FlashFont';
@@ -452,17 +462,18 @@ object-fit:contain;
 }
 
 .anim-body-div{
-height:10rem;
+height:11rem;
 }
 .anim-header-div{
 height:5rem;
 }
 .animation-subtype{
-font-size:3vw;
+font-size:2.6vw;
 }
 .popup-message{
-top:200px;
+top:48vw;
 font-size:3vw;
+font-weight:100;
 }
  
         .animation-body {
@@ -493,7 +504,7 @@ font-size:5vw;
 } 
 .navbar{
 position:inherit;
-height:180px;
+height:44vw;
 margin-top:-8%;
 }
 .navbar-logo-container{
