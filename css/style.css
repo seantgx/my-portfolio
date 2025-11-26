@@ -318,6 +318,14 @@ margin-top:3%;
 /* MOBILE */
 @media screen and (max-width: 800px) {
 
+	.fullpage{
+
+		margin-top:14%;
+	}
+	.popup-message{
+		top:51vw !important;
+	}
+
 	.animation-header {
 		animation-duration: 1s;
 		text-align: left;
