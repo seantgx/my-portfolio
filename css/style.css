@@ -278,9 +278,17 @@ animation:none;
 	}
 }
 .about-text{
-	font-size:1.25vw;
+	font-size:1rem;
 	font-family:Quantico;
 	font-weight:100;
+}
+.about-header{
+font-family:'FlashFont';
+font-weight:100;
+font-size:3rem;
+margin-bottom:-3%;
+margin-top:3%;
+
 }
 .image-button-desktop {
 	width: 98%;
@@ -309,7 +317,6 @@ animation:none;
 
 /* MOBILE */
 @media screen and (max-width: 800px) {
-	
 
 	.animation-header {
 		animation-duration: 1s;
